@@ -1,0 +1,101 @@
+body {
+  /* background:  url("https://farm6.staticflickr.com/5649/20166324354_ddd73a19a3_k.jpg%22");
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center; */
+  background: url("/images/sanctback.jpg") fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 2;
+
+  ;
+
+  /* transition: opacity .3s ease-out;  */
+}
+
+p {
+  text-align: center;
+  font-size: 02rem;
+  color: #fff;
+  font-family: "Ubuntu-Bold Condensed", sans-serif;
+}
+/* // title session */
+
+.container-fluid {
+  text-align: center;
+  padding: 3% 0 7% 0;
+}
+
+/* clock session */
+.clock-container {
+  padding-bottom: 2%;
+  text-align: center;
+  position: relative;
+}
+
+.clockStyle {
+  font-size: 10rem;
+  color: #fff;
+  font-family: "Ubuntu-Bold Condensed", sans-serif;
+}
+
+.Titlelogo {
+  width: 15%;
+  height: auto;
+}
+
+.GreetingText {
+  color: #fff;
+  font-size: 3rem;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.GuideText {
+  color: #fff;
+  font-size: 1rem;
+  padding-top: 1%;
+  text-align: center;
+}
+
+#myButton {
+  background: none;
+  border: none;
+}
+
+.fas {
+  padding-right: 1.5rem;
+  font-size: 3rem;
+}
+span {
+  font-family: "Ubuntu-Bold Condensed", sans-serif;
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 10px;
+  padding-left: 5px;
+}
+
+.Navbar-Brand {
+  margin-left: 1%;
+}
+
+#employee {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#todo {
+  width: 20%;
+  height: 40px;
+  margin: 0 auto;
+}
